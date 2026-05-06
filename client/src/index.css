@@ -1629,11 +1629,18 @@
   }
 
   .definition-source-b {
+    position: relative;
+    top: -14px;
     margin-left: 20px;
   }
 
   .definition-source-c {
     margin-left: 4px;
+  }
+
+  .definition-source-a {
+    position: relative;
+    top: -32px;
   }
 
   .definition-core {
@@ -1652,7 +1659,7 @@
   .definition-core-orbit {
     position: absolute;
     left: calc(50% - 90px);
-    top: 38px;
+    top: 28px;
     width: 180px;
     height: 180px;
     border: 1px solid rgba(232, 184, 109, 0.26);
@@ -1681,6 +1688,7 @@
 
   .definition-core-mark {
     position: relative;
+    top: 36px;
     z-index: 2;
     display: grid;
     justify-items: center;
@@ -1700,6 +1708,7 @@
     height: 46px;
     border-radius: 14px;
     object-fit: cover;
+    transform: translateY(6px);
     box-shadow: 0 10px 26px rgba(0, 0, 0, 0.26);
   }
 
@@ -1722,9 +1731,9 @@
     position: relative;
     z-index: 4;
     left: auto;
-    top: auto;
+    top: 10px;
     width: min(100%, 250px);
-    margin-top: 22px;
+    margin-top: 40px;
     display: grid;
     gap: 9px;
     transform: none;
@@ -1756,6 +1765,7 @@
     z-index: 6;
     right: auto;
     top: auto;
+    left: 12px;
     width: 100%;
     max-width: 350px;
     justify-self: end;
